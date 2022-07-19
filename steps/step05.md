@@ -7,4 +7,4 @@ gradient checking: 역전파와 수치미분의 값을 비교하는 것 (역전�
    
 합성함수의 미분: 구성 함수 각각을 미분한 후 곱한 것과 같다
 
-$\frac{dy}{dx} = \frac{dy}{dy}\frac{dy}{db}\frac{db}{da}\frac{da}{dx}$
+#$\frac{dy}{dx} = \frac{dy}{dy}\frac{dy}{db}\frac{db}{da}\frac{da}{dx}$
