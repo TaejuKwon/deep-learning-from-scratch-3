@@ -14,7 +14,7 @@ class Variable:
 
     def backward(self):
         f = self.creator
-        if f is not None:
+        if f is not None:   # 창조자가 없는 변수(입력변수)가 나올 때까지 재귀를 반
             x = f.input
             x.grad = f.backward(self.grad)
             x.backward()    # 하나 앞 변수의 backward 함수를 호출 (재귀)
